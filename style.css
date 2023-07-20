@@ -1,0 +1,83 @@
+/* global font and background color */
+body {
+    background-color : #6495ED;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+/* pretty blue and gold header at the top */
+header {
+    color : #FFD700;
+    font-family: 'Brush Script MT', sans-serif;
+    background-color: #00008B;
+    text-align: center;   
+    border: solid 5px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+/* tightened up borders to ensure sections roll into each other.
+    this might be overkill.  */
+main {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* anchor link color behaviors */
+a:link {color: #fff;}
+a:visited {color: #2F4F4F}
+a:hover { color: #000; font-weight:bold}
+a:active { color: #fff; font-weight:bold}
+
+/* simple foooter styling */
+footer {
+    background-color: #00008B;
+    color : #fff;
+    text-align  : center;
+    font-size: 16px;
+}
+
+/* standard font sizing for headers */
+h1 {
+    font-size : 50px;
+}
+
+h2 {
+    font-size : 25px;
+}
+
+/* experimenting with a fat horizontal rule */
+hr {
+    height : 2px;
+    border-width : 10px;
+}
+
+/* needed to differentiate the normal text from h1 and h2 in the header */
+header > p {
+    color : #fff;
+}
+
+/* wanted a larger font for the BASIC code reference so it stands out more */
+main > p code {
+    font-size: 24px;
+}
+
+/* defined margin, size and centering for the top nav links */
+.navlinks {
+    text-align: center;
+    font-size: 24px;
+    margin: 50px; 
+}
+
+/* define the margin between each anchor tag in the nav links */
+.navlinks > a {
+    margin: 50px;
+}
+
+/* need to center those images */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px; 
+}

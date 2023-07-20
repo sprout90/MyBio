@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My Bio</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <h1>Mike Brehm</h1>
+        <h2>Software Engineering Leader</h2>
+        <p>...that really likes to code...</p>
+    </header>    
+    <main>
+        <nav>
+            <!-- internal page navigation which links to the 3 main articles on the page -->
+            <div class="navlinks">
+                <a href="#intro">Intro</a>
+                <a href="#about">About Me</a>
+                <a href="#contact">Contact Me</a>
+            </div>
+        </nav>
+        <hr>
+        <!-- Intro section that says 'who i am' and 'where i am'-->
+        <article>
+            <h3><a id="intro">Introduction</a></h3>
+              <!-- Who I am with photo-->
+              <img src="images/Brehm_solo.jpg" class="center" alt="Mike's photo on Mt Washington"></img>
+                <h4>Hello! I am Mike Brehm.</h4>
+                <p>I'm a software engineering leader that has held software developer, manager and director roles over the course of my career.  But, the part of my career that I really 
+                    enjoy is coding -- <em>when I get the time that is</em>.    
+                </p>
+                <p>The current web technologies have advanced significantly while I've been busy leading and running organizations. So, I am now enrolled in a coding boot camp while I'm between gigs.  And, I am really enjoying the formal training on HTML, CSS, and JavaScript.
+                    But, there are still more things to learn and I can't wait.  I'm looking forward to getting my hands on React, Node.js, Express and PostgreSQL.
+                </p>
+              <!-- Where I am with image of map that links out to Google.
+                    All external links will pop into a new browser window  -->
+              <h4>Huntley, IL</h4>
+              <p>This is where I live. Huntley, IL is a small town town (exurb) with a population of about 28,000 people. I've lived here for the past 20 years and have come to love it. 
+                During that time, the town has grown substantially in population, services and stores. The main drive through town is Rt 47.  There wasn't much there 20 years ago. But, now the street is lined with the conveniences we've all come to expect (i.e., Walmark, McDonald's). </p>
+                <p>Loving this area was a stretch at first.  I grew up in Chicago where the nights are always lit by streetlamp  with stores and restaurants everywhere. Dark nights were something to get used to to. But, the night view of the stars was wonderful.</p>
+                
+             <p><a href="https://www.google.com/maps/@42.1642716,-88.4765947,13z?entry=ttu" target="_blank"><img src="images/Huntley_map.png" class="center" alt="Map of Huntley, IL"></img></a></p>
+
+        </article>
+        <hr>
+        <!-- About me section that talks about my passion for coding and lovin' teamwork, and a few interests -->
+        <article>
+            <h3><a id="about">About Me</a></h3>
+
+            <!-- Web Dev passion which includes the first code I ever wrote in the <code> elements
+                I also link out to IMDB for the movie reference.  -->
+            <h4>My Coding Passion</h4>
+            <p>It all began for me during Junior High. I was taking a computer programming course for kids at a local community college. Why? I was fascinated with the computer sales displays at Radio Shack. 
+                Yes, I was the geek that would drop to a command prompt to edit some BASIC code on the display model and run it in a loop.  It was the typical... </p> 
+                <code>
+                    10 Print "Hello World" <br>
+                    20 Goto 10
+                </code>
+            <p>
+                Then, a blockbuster movie hit the theaters that completely sealed the deal. It was the movie <a href="https://www.imdb.com/title/tt0086567/" target="_blank">War Games</a> starring Matt Broderick. I loved this movie then, and I still enjoy it today. This movie fueled my fascination and my passion for all things computers and coding. I've never been the same since.
+            </p>
+            <!-- Love teamwork -->
+            <h4>Teams Are Fun!</h4>
+            <p>I always prefer to work on a team. It's a very rewarding experience when team members holds each other up. I personally always appreciate a 2nd set of eyes when I'm stuck, or a really good code review where I walked away knowing more than I did before. And, 
+                every now and then I'm able to help someone else along too.  That's the most rewarding part. Then, there's all the bonding and camaraderie from late nights and grabbing dinner together. I wouldn't replace those memories for anything.
+            </p>
+            <!-- Some of my interests 
+                This uses an unordered list that highlights nesting-->
+            <h4>Some of my Interests</h4>
+            <p>Here are some of my top interests. They are listed in no particular order. I love them all. Just depends on my mood.</p>
+            <ul>
+                <li>Travel!</li>
+                    <ul>
+                        <li>Road trips</li>
+                        <li>Cruises in the Carribean</li>
+                        <li>Exploring Scenic Wonders</li>
+                        <li>Learning in Historic Places</li>
+                        <li>Trying New Restaurants</li>
+                        <li>Visiting New Cities</li>
+                        <li>Anywhere that's warm</li>
+                    </ul>
+                <li>Going to the Movies</li>
+                <li>Reading a Good Book</li>
+                <li>Working in My Yard</li>
+            </ul>
+            <p></p>
+
+            <!-- Favorite fast food
+                This uses an ordered list to provide the ranking -->
+            <h4>Favorite Fast Food Places</h4>
+            <p>Here is a list of my top 10 favorite fast food options. They are ranked from 1 to 10, with 1 being the absolute best!</p>
+            <oL>
+                <li><strong>Honey Butter Chicken</strong> located in Chicago (sorry, not a chain)</li>
+                <li>Beef Shack</li>
+                <li>Culver's</li>
+                <li>Burger King</li>
+                <li>Wendy's</li>
+                <li>Chipotle</li>
+                <li>Arby's</li>
+                <li>Chick-fil-A</li>
+                <li>Popeye's Chicken</li>
+                <li>Shake Shack</li>
+            </oL>
+        </article>
+        <hr>
+        <!-- Contact me section -->
+        <article>
+            <h3><a id="contact">Contact Me</a></h3>
+            <p>Here are some ways that you can contact me. If I don't respond right away, just be patient. I'll get in-touch shortly. :-)</p>
+            <!-- LinkedIn -->
+            <ul>
+                <li><a href="https://www.linkedin.com/in/mbrehm/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/sprout90" target="_blank">GitHub</a></li>
+            </ul>
+            <!-- GitHub -->
+        </article>
+
+    </main>   
+    <footer>
+        <p>Copyright 2023, All Rights Reserved</p>
+    </footer>
+  
+    <script src="script.js"></script>
+</body>
+
+</html>
