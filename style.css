@@ -11,6 +11,7 @@ header {
     background-color: #296EB4;
     text-align: center;   
     border: solid 5px;
+    border-radius : 10px;
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
@@ -59,6 +60,7 @@ hr {
     height : 2px;
     border-width : 5px;
     border-color : #FFD07B;
+    border-radius : 10px;
 }
 
 /* needed to differentiate the normal text from h1 and h2 in the header */
@@ -79,8 +81,10 @@ main > p code {
 }
 
 /* define the margin between each anchor tag in the nav links */
-.navlinks > a {
-    margin: 50px;
+@media screen and (min-width: 900px){
+    .navlinks > a {
+        margin: 50px;
+    }   
 }
 
 /* need to center those images */
