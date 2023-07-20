@@ -1,14 +1,14 @@
 /* global font and background color */
 body {
-    background-color : #6495ED;
+    background-color : #1789FC;
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 /* pretty blue and gold header at the top */
 header {
-    color : #FFD700;
+    color : #FFD07B;
     font-family: 'Brush Script MT', sans-serif;
-    background-color: #00008B;
+    background-color: #296EB4;
     text-align: center;   
     border: solid 5px;
     margin-bottom: 0px;
@@ -31,8 +31,8 @@ a:active { color: #fff; font-weight:bold}
 
 /* simple foooter styling */
 footer {
-    background-color: #00008B;
-    color : #fff;
+    background-color: #296EB4;
+    color : #FFD07B;
     text-align  : center;
     font-size: 16px;
 }
@@ -46,10 +46,19 @@ h2 {
     font-size : 25px;
 }
 
+h3 {
+    color : #FFD07B;
+}
+
+h4 {
+    color : #FDB833;
+}
+
 /* experimenting with a fat horizontal rule */
 hr {
     height : 2px;
-    border-width : 10px;
+    border-width : 5px;
+    border-color : #FFD07B;
 }
 
 /* needed to differentiate the normal text from h1 and h2 in the header */
