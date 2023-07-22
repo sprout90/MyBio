@@ -1,13 +1,13 @@
 /* global font and background color */
 body {
-    background-color : #1789FC;
+    background-color : #6495ED;
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 /* pretty blue and gold header at the top */
 header {
     color : #FFD07B;
-    font-family: 'Brush Script MT', sans-serif;
+    font-family: sans-serif;
     background-color: #296EB4;
     text-align: center;   
     border: solid 5px;
@@ -66,6 +66,10 @@ hr {
 /* needed to differentiate the normal text from h1 and h2 in the header */
 header > p {
     color : #fff;
+}
+
+p, ol, ul {
+    color: #fff;
 }
 
 /* wanted a larger font for the BASIC code reference so it stands out more */
