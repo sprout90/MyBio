@@ -71,7 +71,7 @@ header > p {
     color : #fff;
 }
 
-p, ol, ul {
+p, ol, ul, code {
     color: #fff;
 }
 
