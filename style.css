@@ -91,7 +91,10 @@ main > p code {
 @media screen and (min-width: 900px){
     .navlinks > a {
         margin: 50px;
-    }   
+    } 
+    .wrapper {
+        display: flex;
+    }  
 }
 
 /* need to center those images */
@@ -102,6 +105,4 @@ main > p code {
     width: 300px; 
 }
 
-.wrapper {
-    display: flex;
-}
+
