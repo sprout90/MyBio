@@ -87,7 +87,8 @@ main > p code {
     margin: 50px; 
 }
 
-/* define the margin between each anchor tag in the nav links */
+/* define the margin between each anchor tag in the nav links 
+    and allow for side-by-side image display */
 @media screen and (min-width: 900px){
     .navlinks > a {
         margin: 50px;
@@ -103,6 +104,7 @@ main > p code {
     margin-left: auto;
     margin-right: auto;
     width: 300px; 
+    padding-bottom: 10px;
 }
 
 
