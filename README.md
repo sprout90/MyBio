@@ -9,3 +9,5 @@ The focus of this assignment was to demonstrate profiency in various HTML and CS
 ## Bonus
 For my own interest, I also ensured that the page implemented responsive web design. This prevents the page from breaking when viewed on small form factor displays.  
 
+## Where Can I See It?
+To view the page, please click this [MyBio](https://sprout90.github.io/MyBio) link.
